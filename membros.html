@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Membros - Secretaria da Igreja</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="membros.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Membros</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="comunicados.html">Comunicados</a>
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Cadastrar Novo Membro</h2>
+        <form id="formMembro">
+            <input type="text" id="nome" placeholder="Nome completo" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="telefone" placeholder="Telefone">
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <h2>Lista de Membros</h2>
+        <ul id="listaMembros"></ul>
+    </main>
+</body>
+</html>
