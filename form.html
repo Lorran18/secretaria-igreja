@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Mensal</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h2>Relatório Mensal</h2>
+    <form id="relatorioForm">
+        <label>Mês/Ano:</label>
+        <input type="text" name="mesAno" required><br>
+
+        <label>Congregação:</label>
+        <input type="text" name="congregacao" required><br>
+
+        <button type="button" onclick="salvarRelatorio()">Salvar</button>
+        <button type="button" onclick="exportarPDF()">Exportar PDF</button>
+        <button type="button" onclick="imprimirRelatorio()">Imprimir</button>
+    </form>
+</body>
+</html>
